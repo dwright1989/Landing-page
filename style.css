@@ -115,6 +115,8 @@
     background-color: #E5E7EB;
     padding: 32px;
     margin-bottom: 100px;
+    display:flex;
+    justify-content: center;
 }
 
 .quote-text{
@@ -123,10 +125,12 @@
     font-style: italic;
     font-weight: lighter;
     text-align: center;
+    width: 60%;
 }
 
 .quote-by{
-    text-align: right;
+    display:flex;
+    align-items: flex-end;
 }
 
 #sign-up{
