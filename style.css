@@ -52,6 +52,7 @@
     color:#F9FaF8;
     font-size: 48px;
     font-weight: extra-bold;
+    font-family: Courier New;
 }
 
 .banner-text{
@@ -63,7 +64,41 @@
     width: 100px;
     background-color: #3882F6;
     border:none;
-    border-radius:12px;
+    border-radius:8px;
     padding: 4px;
     color: white;
+}
+
+#info-header{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main-body{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 64px;
+}
+
+#image-holder{
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 32px;
+}
+
+.course-image{
+    max-width: 100px;
+    border: 5px solid #555;
+    
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
 }
