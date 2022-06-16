@@ -102,3 +102,21 @@
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#quote{
+    background-color: #E5E7EB;
+    padding: 32px;
+}
+
+.quote-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.quote-by{
+    text-align: right;
+    font-weight: bold;
+}
