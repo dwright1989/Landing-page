@@ -69,6 +69,14 @@
     color: white;
 }
 
+.border-button{
+    border: 1px solid white;
+    max-height:25px;
+    text-align:center;
+    align-self: center;
+    margin-left: 32px;
+}
+
 #info-header{
     color: #1F2937;
     font-size: 36px;
@@ -106,6 +114,7 @@
 #quote{
     background-color: #E5E7EB;
     padding: 32px;
+    margin-bottom: 100px;
 }
 
 .quote-text{
@@ -118,5 +127,25 @@
 
 .quote-by{
     text-align: right;
+}
+
+#sign-up{
+    background-color: #3882F6;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-grow:0;
+    padding: 32px;
+    border-radius: 4px;
+}
+
+#sign-uptext{
+    color: white;
+    gap:0;
+}
+
+.bold{
     font-weight: bold;
 }
+
