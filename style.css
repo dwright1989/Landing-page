@@ -149,3 +149,11 @@
     font-weight: bold;
 }
 
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 32px;
+}
+
