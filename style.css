@@ -1,0 +1,26 @@
+#header, #banner{
+    display:flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+#banner{
+    padding: 64px;
+}
+
+
+#title-header{
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
+#header-links a{
+    text-decoration: none;
+    color:#F9FAF8;
+}
+
+#header-links{
+    display:flex;
+    gap: 32px;
+    align-items: center;
+}
