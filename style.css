@@ -5,7 +5,8 @@
 }
 
 #banner{
-    padding: 64px;
+  
+   padding: 32px;
 }
 
 
@@ -23,4 +24,46 @@
     display:flex;
     gap: 32px;
     align-items: center;
+}
+
+#description{
+    display:flex;
+    flex-direction: column;
+    padding-right:64px;
+    padding-left: 64px;
+    display: flex;
+  flex-basis: 500px;
+  justify-content: center;
+    
+}
+#comp-image{
+    width: 250px;
+    border-radius: 8px;
+}
+
+.image{
+    display:flex;
+    align-content: center;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+#banner-header{
+    color:#F9FaF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.banner-text{
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.banner-button{
+    width: 100px;
+    background-color: #3882F6;
+    border:none;
+    border-radius:12px;
+    padding: 4px;
+    color: white;
 }
